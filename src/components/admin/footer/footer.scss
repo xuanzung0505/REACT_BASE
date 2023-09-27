@@ -1,0 +1,17 @@
+footer {
+  text-align: center;
+  padding: 50px 0;
+
+  .heading {
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .line-info {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}

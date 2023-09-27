@@ -19,7 +19,37 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@apps/*": [
+        "apps/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@enums/*": [
+        "enums/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@globalTypes/*": [
+        "types/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+    },
   },
   "include": [
     "src"

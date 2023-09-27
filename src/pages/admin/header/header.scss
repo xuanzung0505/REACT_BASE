@@ -1,0 +1,68 @@
+@import '../../../assets/styles/variables';
+
+.layout {
+
+    &>.header {
+        width: 100%;
+        top: 0;
+        position: fixed;
+        background: #fff;
+        z-index: 100;
+        padding: 20px 0;
+        box-shadow: 0 0.7rem 1rem rgb(122 108 108 / 18%);
+
+        &>.nav {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 200px;
+                height: auto;
+                object-fit: cover;
+            }
+
+            &>a {
+
+                &.home,
+                &.competitive,
+                &.practice,
+                &.ranking {
+                    font-weight: $fontWeight2;
+
+                    transition: all ease 100ms;
+
+                    &:hover {
+                        color: $primary2;
+                        transform: scale(1.05);
+                    }
+
+                    &.active {
+                        color: $primary2;
+                        transform: scale(1.05);
+                    }
+                }
+            }
+
+            // &>.right {
+            //     display: flex;
+            //     align-items: center;
+            //     column-gap: 40px;
+
+            // }
+        }
+
+        .user {
+            .avatar-img {
+                border-radius: 50%;
+                height: auto;
+                width: 100%;
+                max-width: 50px;
+                margin-right: 10px;
+            }
+        }
+
+    }
+}

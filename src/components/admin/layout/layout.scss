@@ -1,0 +1,10 @@
+.layout {
+  font-size: 14px;
+
+  &>.layout-content {
+    padding-Top: 90px;
+    min-height: 80vh;
+    overflow-x: auto;
+
+  }
+}

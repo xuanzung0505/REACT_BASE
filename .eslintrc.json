@@ -32,7 +32,10 @@
         "dist/**"
     ],
     "rules": {
-        "semi": ["error", "never"],
+        "semi": [
+            "error",
+            "never"
+        ],
         "quotes": [
             "error",
             "single"
@@ -104,6 +107,9 @@
             "off"
         ],
         "@typescript-eslint/no-unsafe-call": [
+            "off"
+        ],
+        "@typescript-eslint/member-delimiter-style": [
             "off"
         ]
     }
